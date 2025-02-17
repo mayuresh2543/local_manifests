@@ -32,7 +32,7 @@
  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="cr" revision="15.0" />
 
  <!-- Dolby -->
- <project path="vendor/dolby" name="vendor_dolby_oplus" remote="cumos" revision="14" />
+ <!--project path="vendor/dolby" name="vendor_dolby_oplus" remote="cumos" revision="14" />
 
  <!-- Kanged from Vedraj🫠 -->
 	
