@@ -17,6 +17,9 @@
    <remote name="cumos"
            fetch="https://github.com/cumOS"
 	   clone-depth="1" />
+   <remote name="chk-bcr"
+           fetch="https://github.com/Chaitanyakm"
+	   clone-depth="1" />
 
  
  <!-- Tree -->
@@ -33,6 +36,10 @@
 
  <!-- Dolby -->
  <project path="vendor/dolby" name="vendor_dolby_oplus" remote="cumos" revision="14" />
+
+ <!-- BCR -->
+ <project path="vendor/bcr" name="vendor_bcr" remote="chk-bcr" revision="main" />
+	
 
  <!-- Kanged from Vedraj🫠 -->
 	
