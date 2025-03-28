@@ -29,10 +29,10 @@
  <project path="device/xiaomi/stone-kernel" name="device_xiaomi_stone-kernel" remote="kami" revision="custom" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="kami" revision="15-libperf" />
+ <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone_kami" remote="mayuresh" revision="15-qpr2-libperf" />
  
  <!-- Common Xiaomi Hardware Tree -->
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="cr" revision="15.0" />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-22.2" />
 
  <!-- Dolby -->
  <project path="vendor/dolby" name="vendor_dolby_oplus" remote="cumos" revision="14" />
