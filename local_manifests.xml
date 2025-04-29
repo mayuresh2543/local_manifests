@@ -23,14 +23,11 @@
 
  
  <!-- Tree -->
- <project path="device/xiaomi/stone" name="device_xiaomi_stone_new" remote="mayuresh" revision="15-los" />
+ <project path="device/xiaomi/stone" name="device_xiaomi_stone" remote="mayuresh" revision="lineage-15" />
 
  <!-- Kernel -->
- <project path="kernel/xiaomi/stone" name="kernel_xiaomi_stone_new" remote="kami" revision="test" />
+ <project path="device/xiaomi/stone-kernel" name="device_xiaomi_stone_kernel" remote="kami" revision="custom" />
 
- <!-- Vendor -->
- <project path="vendor/xiaomi/stone" name="proprietary_vendor_xiaomi-stone" remote="cr" revision="15.0" />
- 
  <!-- Common Xiaomi Hardware Tree -->
  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-22.2" />
 
