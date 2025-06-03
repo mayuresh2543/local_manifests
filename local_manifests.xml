@@ -37,6 +37,9 @@
  <!-- Vendor -->
  <project path="vendor/xiaomi/stone" name="proprietary_vendor_xiaomi-stone" remote="cr" revision="15.0" />
 
+ <!-- Viper -->
+ <project path="vendor/viper4" name="vendor_viper4" remote="mayuresh" revision="v4a" />
+
  <!-- Kanged from Vedraj🫠 -->
 	
 </manifest>
