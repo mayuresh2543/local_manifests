@@ -42,6 +42,9 @@
  <!-- Dolby -->
  <project path="hardware/dolby" name="hardware_dolby" remote="mayuresh" revision="sony-1.0" />
 
+ <!-- Darura -->
+ <project path="prebuilts/calyx/datura" name="prebuilts_calyx_datura" remote="mayuresh" revision="15-qpr2" />
+
  <!-- Kanged from Vedraj🫠 -->
 	
 </manifest>
