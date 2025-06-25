@@ -27,6 +27,9 @@
  <!-- Common Xiaomi Hardware Tree -->
  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-22.2" />
 
+ <!-- Kernel -->
+ <project path="kernel/xiaomi/stone" name="kernel_xiaomi_stone" remote="mayuresh" revision="16" />
+
  <!-- BCR -->
  <project path="vendor/bcr" name="vendor_bcr" remote="chk-bcr" revision="main" />
 
@@ -35,6 +38,9 @@
 
  <!-- Viper -->
  <project path="packages/apps/ViPER4AndroidFX" name="vendor_viper4" remote="mayuresh" revision="v4a" />
+
+ <!-- Dolby -->
+ <project path="hardware/dolby" name="hardware_dolby" remote="mayuresh" revision="sony-1.0" />
 
  <!-- Kanged from Vedraj🫠 -->
 	
