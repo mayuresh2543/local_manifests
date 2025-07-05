@@ -37,7 +37,7 @@
  <project path="vendor/bcr" name="vendor_bcr" remote="chk-bcr" revision="main" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="mayuresh" revision="16" />
+ <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="mayuresh" revision="yaap-16" />
 
  <!-- Viper -->
  <project path="packages/apps/ViPER4AndroidFX" name="vendor_viper4" remote="mayuresh" revision="v4a" />
