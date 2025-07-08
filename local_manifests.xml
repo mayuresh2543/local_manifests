@@ -24,9 +24,6 @@
  <!-- Tree -->
  <project path="device/xiaomi/stone" name="device_xiaomi_stone_new" remote="mayuresh" revision="infinity-15" />
 
- <!-- Common Xiaomi Hardware Tree -->
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-22.2" />
-
  <!-- Kernel -->
  <project path="kernel/xiaomi/stone" name="kernel_xiaomi_stone" remote="mayuresh" revision="16" />
 
