@@ -3,7 +3,7 @@
 
  <!-- Remotes -->
    <remote name="mayuresh"
-           fetch="https://github.com/Mayuresh2543"
+           fetch="https://github.com/mayuresh2543"
            clone-depth="1" />
    <remote name="kami"
            fetch="https://github.com/kamikaonashi"
@@ -22,7 +22,7 @@
 	   clone-depth="1" />
 
  <!-- Tree -->
- <project path="device/xiaomi/stone" name="device_xiaomi_stone_new" remote="mayuresh" revision="lineage-15" />
+ <project path="device/xiaomi/stone" name="device_xiaomi_stone_new" remote="mayuresh" revision="infinity-15" />
 
  <!-- Common Xiaomi Hardware Tree -->
  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-22.2" />
