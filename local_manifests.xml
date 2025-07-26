@@ -20,6 +20,9 @@
    <remote name="chk-bcr"
            fetch="https://github.com/Chaitanyakm"
 	   clone-depth="1" />
+   <remote name="buildbot"
+           fetch="https://github.com/buildbot-stone-devs"
+           clone-depth="1" />
 
  <!-- Tree -->
  <project path="device/xiaomi/stone" name="device_xiaomi_stone_new" remote="mayuresh" revision="crdroid-15" />
@@ -35,6 +38,9 @@
 
  <!-- Vendor -->
  <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="mayuresh" revision="15" />
+
+ <!-- Keys -->
+ <project path="vendor/priv-keys/keys" name="vendor_priv-keys_keys" remote="buildbot" revision="main" />
 
  <!-- Viper -->
  <project path="packages/apps/ViPER4AndroidFX" name="vendor_viper4" remote="mayuresh" revision="v4a" />
