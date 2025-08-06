@@ -50,7 +50,11 @@
 
  <!-- Keys -->
  <project path="vendor/priv-keys/keys" name="vendor_priv-keys_keys" remote="buildbot" revision="main" />
+
+ <!-- Compat -->
+ <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="mayuresh" revision="lineage-23.0" />
 	
  <!-- Kanged from Vedraj🫠 -->
 	
 </manifest>
+
