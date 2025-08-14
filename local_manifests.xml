@@ -3,7 +3,7 @@
 
  <!-- Remotes -->
    <remote name="mayuresh"
-           fetch="https://github.com/mayuresh2543"
+           fetch="https://github.com/Mayuresh2543"
            clone-depth="1" />
    <remote name="kami"
            fetch="https://github.com/kamikaonashi"
@@ -24,17 +24,14 @@
  <!-- Tree -->
  <project path="device/xiaomi/stone" name="device_xiaomi_stone_new" remote="mayuresh" revision="infinity-16" />
 
- <!-- Kernel -->
- <project path="device/xiaomi/stone-kernel" name="device_xiaomi_stone-kernel" remote="mayuresh" revision="16" />
-
  <!-- Common Xiaomi Hardware Tree -->
  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-23.0" />
 
+ <!-- Kernel -->
+ <project path="kernel/xiaomi/stone" name="kernel_xiaomi_stone" remote="mayuresh" revision="16" />
+
  <!-- BCR -->
  <project path="vendor/bcr" name="vendor_bcr" remote="chk-bcr" revision="main" />
-
- <!-- Dolby -->
- <project path="hardware/dolby" name="hardware_dolby" remote="mayuresh" revision="sony-1.0" />
 
  <!-- Vendor -->
  <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="mayuresh" revision="16" />
@@ -42,10 +39,12 @@
  <!-- Viper -->
  <project path="packages/apps/ViPER4AndroidFX" name="vendor_viper4" remote="mayuresh" revision="v4a" />
 
- <!-- Datura -->
+ <!-- Dolby -->
+ <project path="hardware/dolby" name="hardware_dolby" remote="mayuresh" revision="sony-1.0" />
+
+ <!-- Darura -->
  <project path="prebuilts/calyx/datura" name="prebuilts_calyx_datura" remote="mayuresh" revision="15-qpr2" />
 
  <!-- Kanged from Vedraj🫠 -->
 	
 </manifest>
-
