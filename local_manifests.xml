@@ -42,11 +42,15 @@
  <!-- Dolby -->
  <project path="hardware/dolby" name="hardware_dolby" remote="mayuresh" revision="sony-1.0" />
 
- <!-- Darura -->
+ <!-- Datura -->
  <project path="prebuilts/calyx/datura" name="prebuilts_calyx_datura" remote="mayuresh" revision="15-qpr2" />
+
+ <!-- Keys -->
+ <project path="vendor/priv-keys/keys" name="vendor_priv-keys_keys" remote="mayuresh" revision="main" />
 
  <!-- Kanged from Vedraj🫠 -->
 	
 </manifest>
+
 
 
