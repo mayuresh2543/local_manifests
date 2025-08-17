@@ -25,7 +25,7 @@
            clone-depth="1" />
 
  <!-- Tree -->
- <project path="device/xiaomi/stone" name="device_xiaomi_stone_new" remote="mayuresh" revision="cr16-exp" />
+ <project path="device/xiaomi/stone" name="device_xiaomi_stone_new" remote="mayuresh" revision="crdroid-16" />
 
  <!-- Common Xiaomi Hardware Tree -->
  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-23.0" />
@@ -49,10 +49,11 @@
  <project path="prebuilts/calyx/datura" name="prebuilts_calyx_datura" remote="mayuresh" revision="15-qpr2" />
 
  <!-- Keys -->
- <project path="vendor/priv-keys/keys" name="vendor_priv-keys_keys" remote="buildbot" revision="main" />
+ <project path="vendor/priv-keys/keys" name="vendor_priv-keys_keys" remote="mayuresh" revision="main" />
 	
  <!-- Kanged from Vedraj🫠 -->
 	
 </manifest>
+
 
 
