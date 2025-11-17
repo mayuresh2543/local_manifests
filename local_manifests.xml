@@ -30,9 +30,6 @@
  <!-- Kernel -->
  <project path="kernel/xiaomi/stone" name="kernel_xiaomi_stone_rebase" remote="mayuresh" revision="16" />
 
- <!-- BCR -->
- <project path="vendor/bcr" name="vendor_bcr" remote="chk-bcr" revision="main" />
-
  <!-- Vendor -->
  <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="mayuresh" revision="16" />
 
@@ -51,3 +48,4 @@
  <!-- Kanged from Vedraj🫠 -->
 	
 </manifest>
+
