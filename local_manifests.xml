@@ -25,13 +25,13 @@
 	   clone-depth="1" />	
 
  <!-- Common Xiaomi Hardware Tree -->
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-23.0" />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-23.2" />
 
  <!-- BCR -->
  <project path="vendor/bcr" name="vendor_bcr" remote="chk-bcr" revision="main" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="mayuresh" revision="16" />
+ <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="mayuresh" revision="16.2" />
 
  <!-- Viper -->
  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="mayuresh-sources" revision="v4a" />
@@ -48,3 +48,4 @@
  <!-- Kanged from Vedraj🫠 -->
 	
 </manifest>
+
