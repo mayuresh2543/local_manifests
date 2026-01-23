@@ -43,9 +43,10 @@
  <project path="prebuilts/calyx/datura" name="prebuilts_calyx_datura" remote="mayuresh-sources" revision="15-qpr2" />
 
  <!-- Keys -->
- <project path="vendor/priv-keys/keys" name="vendor_priv-keys_keys" remote="mayuresh" revision="main" />
+ <project path="vendor/lineage-priv/keys" name="vendor_lineage-priv_keys" remote="mayuresh" revision="main" />
 
  <!-- Kanged from Vedraj🫠 -->
 	
 </manifest>
+
 
