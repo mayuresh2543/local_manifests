@@ -20,40 +20,37 @@
    <remote name="chk-bcr"
            fetch="https://github.com/Chaitanyakm"
 	   clone-depth="1" />
-   <remote name="buildbot"
-           fetch="https://github.com/buildbot-stone-devs"
-           clone-depth="1" />
+   <remote name="mayuresh-sources"
+           fetch="https://github.com/mayuresh-sources"
+	   clone-depth="1" />
 
  <!-- Tree -->
- <project path="device/xiaomi/stone" name="device_xiaomi_stone_new" remote="mayuresh" revision="crdroid-16" />
-
- <!-- Common Xiaomi Hardware Tree -->
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-23.0" />
+ <project path="device/xiaomi/stone" name="device_xiaomi_stone_new" remote="mayuresh" revision="crdroid-16.2" />
 
  <!-- Kernel -->
- <project path="kernel/xiaomi/stone" name="kernel_xiaomi_stone" remote="mayuresh" revision="16" />
+ <project path="kernel/xiaomi/stone" name="kernel_xiaomi_stone_rebase" remote="mayuresh" revision="16.2" />
+
+ <!-- Common Xiaomi Hardware Tree -->
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-23.2" />
 
  <!-- BCR -->
  <project path="vendor/bcr" name="vendor_bcr" remote="chk-bcr" revision="main" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="mayuresh" revision="16" />
+ <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="mayuresh" revision="16.2" />
 
  <!-- Viper -->
- <project path="packages/apps/ViPER4AndroidFX" name="vendor_viper4" remote="mayuresh" revision="v4a" />
+ <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="mayuresh-sources" revision="v4a" />
 
  <!-- Dolby -->
- <project path="hardware/dolby" name="hardware_dolby" remote="mayuresh" revision="sony-1.0" />
+ <project path="hardware/dolby" name="hardware_dolby" remote="mayuresh-sources" revision="sony-1.0" />
 
  <!-- Datura -->
- <project path="prebuilts/calyx/datura" name="prebuilts_calyx_datura" remote="mayuresh" revision="15-qpr2" />
+ <project path="prebuilts/calyx/datura" name="prebuilts_calyx_datura" remote="mayuresh-sources" revision="15-qpr2" />
 
  <!-- Keys -->
- <project path="vendor/priv-keys/keys" name="vendor_priv-keys_keys" remote="mayuresh" revision="main" />
-	
+ <project path="vendor/lineage-priv/keys" name="vendor_lineage-priv_keys" remote="mayuresh" revision="main" />
+
  <!-- Kanged from Vedraj🫠 -->
 	
 </manifest>
-
-
-
