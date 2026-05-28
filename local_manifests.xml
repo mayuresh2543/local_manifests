@@ -23,9 +23,9 @@
           fetch="https://gitlab.com/ThankYouMario"
           clone-depth="1" />
 
-  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="mayuresh-spes-sources" />
+  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="mayuresh-spes-sources" revision="13.0" />
 
-  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes" remote="muralivijay" />
+  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_sm6225" remote="muralivijay" revision="main-a16-sm8250-base" />
 
   <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="muralivijay" revision="13.0" />
 
@@ -33,10 +33,10 @@
 
   <project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="tym-gitlab" revision="uvite-sm6225" />
 
-  <project path="vendor/bcr" name="vendor_bcr" remote="chk-bcr" />
+  <project path="vendor/bcr" name="vendor_bcr" remote="chk-bcr" revision="main" />
 
-  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="mayuresh-sources" />
+  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="mayuresh-sources" revision="v4a" />
 
-  <project path="vendor/priv-keys/keys" name="vendor_priv-keys_keys" remote="mayuresh" />
-
-  </manifest>
+  <project path="vendor/priv-keys/keys" name="vendor_priv-keys_keys" remote="mayuresh" revision="main" />
+	
+</manifest>
