@@ -37,6 +37,6 @@
 
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="mayuresh-sources" />
 
-  <project path="vendor/lineage-priv/keys" name="vendor_priv-keys_keys" remote="mayuresh" />
+  <project path="vendor/priv-keys/keys" name="vendor_priv-keys_keys" remote="mayuresh" />
 
   </manifest>
