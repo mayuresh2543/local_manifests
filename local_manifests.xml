@@ -25,13 +25,13 @@
 	   clone-depth="1" />
 
  <!-- Tree -->
- <project path="device/xiaomi/stone" name="device_xiaomi_stone_new" remote="mayuresh" revision="lineage-23.2" />
+ <project path="device/xiaomi/stone" name="device_xiaomi_stone_new" remote="mayuresh" revision="lineage-24.0" />
 
  <!-- Kernel -->
- <project path="kernel/xiaomi/stone" name="kernel_xiaomi_stone_rebase" remote="mayuresh" revision="16.2" />
+ <project path="kernel/xiaomi/stone" name="kernel_xiaomi_stone_rebase" remote="mayuresh" revision="17" />
 
  <!-- Common Xiaomi Hardware Tree -->
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-23.2" />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-24.0" />
 
  <!-- BCR -->
  <project path="vendor/bcr" name="vendor_bcr" remote="chk-bcr" revision="main" />
@@ -42,14 +42,11 @@
  <!-- Viper -->
  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="mayuresh-sources" revision="v4a" />
 
- <!-- Dolby -->
- <project path="hardware/dolby" name="hardware_dolby" remote="mayuresh-sources" revision="sony-1.0" />
-
  <!-- Datura -->
  <project path="prebuilts/calyx/datura" name="prebuilts_calyx_datura" remote="mayuresh-sources" revision="15-qpr2" />
 
  <!-- Keys -->
- <project path="vendor/lineage-priv/keys" name="vendor_lineage-priv_keys" remote="mayuresh" revision="16.2" />
+ <project path="vendor/lineage-priv/keys" name="vendor_lineage-priv_keys" remote="mayuresh" revision="17" />
 
  <!-- Kanged from Vedraj🫠 -->
 	
