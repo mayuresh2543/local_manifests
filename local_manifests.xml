@@ -8,7 +8,7 @@
           fetch="https://github.com/mayuresh-sources"
           clone-depth="1" />
   <remote name="spes-stuff"
-          fetch="https://github.com/mayuresh-spes-sources"
+          fetch="https://github.com/lineage-20-spes"
           clone-depth="1" />
   <remote name="murali"
           fetch="https://github.com/muralivijay"
@@ -30,8 +30,6 @@
   <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="murali" revision="13.0" />
 
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-20" />
-
-  <project path="vendor/xiaomi/camera" name="proprietary_vendor_xiaomi_camera" remote="tym-gitlab" revision="uvite-sm6225" />
 
   <project path="vendor/bcr" name="vendor_bcr" remote="chk-bcr" revision="main" />
 
