@@ -35,6 +35,4 @@
 
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="mayuresh-sources" revision="v4a" />
 
-  <project path="vendor/dolby" name="vendor_dolby_oplus" remote="mayuresh-sources" revision="14" />
-
 </manifest>
